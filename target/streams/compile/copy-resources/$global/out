@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/wickedwukong/development/db-unfiltered-demo/src/main/resources/avsl.conf,/Users/wickedwukong/development/db-unfiltered-demo/target/scala-2.9.1/classes/avsl.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/wickedwukong/development/db-unfiltered-demo/src/main/resources/www,/Users/wickedwukong/development/db-unfiltered-demo/target/scala-2.9.1/classes/www)[0m
+[0m[[0mdebug[0m] [0m	(/Users/wickedwukong/development/db-unfiltered-demo/src/main/resources/www/css,/Users/wickedwukong/development/db-unfiltered-demo/target/scala-2.9.1/classes/www/css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/wickedwukong/development/db-unfiltered-demo/src/main/resources/www/css/app.css,/Users/wickedwukong/development/db-unfiltered-demo/target/scala-2.9.1/classes/www/css/app.css)[0m

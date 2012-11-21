@@ -1,0 +1,3 @@
+[0m[[31merror[0m] [0m[31mx The user resource should[0m[0m
+[0m[[31merror[0m] [0m[31m  x report user name for user id 123[0m[0m
+[0m[[31merror[0m] [0m[31m    'Dan' is not equal to 'Ben' (UserResourceSpec.scala:48)[0m[0m

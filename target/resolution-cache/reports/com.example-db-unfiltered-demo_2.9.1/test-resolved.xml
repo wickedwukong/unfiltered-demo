@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="db-unfiltered-demo_2.9.1"
+		revision="0.1.0-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20121121231219"/>
+	<dependencies>
+		<module organisation="org.specs2" name="specs2_2.9.1">
+			<revision name="1.12.3" status="release" pubdate="20121114032124" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="38">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="3105" time="258" location="/Users/wickedwukong/.ivy2/cache/org.specs2/specs2_2.9.1/ivy-1.12.3.xml" searched="true" original-local-location="/Users/wickedwukong/.ivy2/cache/org.specs2/specs2_2.9.1/ivy-1.12.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.1/1.12.3/specs2_2.9.1-1.12.3.pom"/>
+				<caller organisation="com.example" name="db-unfiltered-demo_2.9.1" conf="test, compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="specs2_2.9.1" type="jar" ext="jar" status="successful" details="" size="6571131" time="16492" location="/Users/wickedwukong/.ivy2/cache/org.specs2/specs2_2.9.1/jars/specs2_2.9.1-1.12.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.1/1.12.3/specs2_2.9.1-1.12.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-scalaz-core_2.9.1">
+			<revision name="6.0.1" status="release" pubdate="20110831140958" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+				<metadata-artifact status="no" details="" size="2392" time="0" location="/Users/wickedwukong/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/ivy-6.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.9.1" conf="default, compile, runtime, master" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="1.12.3"/>
+				<artifacts>
+					<artifact name="specs2-scalaz-core_2.9.1" type="jar" ext="jar" status="no" details="" size="4639647" time="0" location="/Users/wickedwukong/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/jars/specs2-scalaz-core_2.9.1-6.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-spec_2.9.1">
+			<revision name="0.6.4" status="release" pubdate="20120806233639" resolver="public" artresolver="public" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3496" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-spec_2.9.1/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/unfiltered-spec_2.9.1/0.6.4/unfiltered-spec_2.9.1-0.6.4.pom"/>
+				<caller organisation="com.example" name="db-unfiltered-demo_2.9.1" conf="test, compile, runtime" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="unfiltered-spec_2.9.1" type="jar" ext="jar" status="no" details="" size="24059" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-spec_2.9.1/jars/unfiltered-spec_2.9.1-0.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/unfiltered-spec_2.9.1/0.6.4/unfiltered-spec_2.9.1-0.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-netty-server_2.9.1">
+			<revision name="0.6.4" status="release" pubdate="20120806233601" resolver="public" artresolver="public" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="24">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3083" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-netty-server_2.9.1/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/unfiltered-netty-server_2.9.1/0.6.4/unfiltered-netty-server_2.9.1-0.6.4.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-spec_2.9.1" conf="default, compile, runtime, master" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="unfiltered-netty-server_2.9.1" type="jar" ext="jar" status="no" details="" size="108305" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-netty-server_2.9.1/jars/unfiltered-netty-server_2.9.1-0.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/unfiltered-netty-server_2.9.1/0.6.4/unfiltered-netty-server_2.9.1-0.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-netty_2.9.1">
+			<revision name="0.6.4" status="release" pubdate="20120806233535" resolver="public" artresolver="public" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3227" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-netty_2.9.1/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/unfiltered-netty_2.9.1/0.6.4/unfiltered-netty_2.9.1-0.6.4.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-netty-server_2.9.1" conf="compile, runtime" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="unfiltered-netty_2.9.1" type="jar" ext="jar" status="no" details="" size="71812" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-netty_2.9.1/jars/unfiltered-netty_2.9.1-0.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/unfiltered-netty_2.9.1/0.6.4/unfiltered-netty_2.9.1-0.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="dispatch-http_2.9.1">
+			<revision name="0.8.8" status="release" pubdate="20120304000306" resolver="public" artresolver="public" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3127" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-http_2.9.1/ivy-0.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.1/0.8.8/dispatch-http_2.9.1-0.8.8.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-spec_2.9.1" conf="default, compile, runtime, master" rev="0.8.8" rev-constraint-default="0.8.8" rev-constraint-dynamic="0.8.8" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="dispatch-http_2.9.1" type="jar" ext="jar" status="no" details="" size="32651" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-http_2.9.1/jars/dispatch-http_2.9.1-0.8.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch-http_2.9.1/0.8.8/dispatch-http_2.9.1-0.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="dispatch-futures_2.9.1">
+			<revision name="0.8.8" status="release" pubdate="20120304000237" resolver="public" artresolver="public" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2679" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-futures_2.9.1/ivy-0.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch-futures_2.9.1/0.8.8/dispatch-futures_2.9.1-0.8.8.pom"/>
+				<caller organisation="net.databinder" name="dispatch-http_2.9.1" conf="compile, runtime" rev="0.8.8" rev-constraint-default="0.8.8" rev-constraint-dynamic="0.8.8" callerrev="0.8.8"/>
+				<artifacts>
+					<artifact name="dispatch-futures_2.9.1" type="jar" ext="jar" status="no" details="" size="13297" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-futures_2.9.1/jars/dispatch-futures_2.9.1-0.8.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch-futures_2.9.1/0.8.8/dispatch-futures_2.9.1-0.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="dispatch-mime_2.9.1">
+			<revision name="0.8.8" status="release" pubdate="20120304000318" resolver="public" artresolver="public" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3393" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-mime_2.9.1/ivy-0.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch-mime_2.9.1/0.8.8/dispatch-mime_2.9.1-0.8.8.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-spec_2.9.1" conf="default, compile, runtime, master" rev="0.8.8" rev-constraint-default="0.8.8" rev-constraint-dynamic="0.8.8" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="dispatch-mime_2.9.1" type="jar" ext="jar" status="no" details="" size="31313" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-mime_2.9.1/jars/dispatch-mime_2.9.1-0.8.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch-mime_2.9.1/0.8.8/dispatch-mime_2.9.1-0.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-core">
+			<revision name="0.7.2" status="release" pubdate="20120107140924" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+				<metadata-artifact status="no" details="" size="6408" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.james/apache-mime4j-core/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.pom"/>
+				<caller organisation="net.databinder" name="dispatch-mime_2.9.1" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.8.8"/>
+				<artifacts>
+					<artifact name="apache-mime4j-core" type="jar" ext="jar" status="no" details="" size="95536" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.james/apache-mime4j-core/jars/apache-mime4j-core-0.7.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.1.2" status="release" pubdate="20110729230218" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+				<metadata-artifact status="no" details="" size="5394" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.pom"/>
+				<caller organisation="net.databinder" name="dispatch-mime_2.9.1" conf="compile, runtime" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="0.8.8"/>
+				<artifacts>
+					<artifact name="httpmime" type="jar" ext="jar" status="no" details="" size="26890" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="dispatch-core_2.9.1">
+			<revision name="0.8.8" status="release" pubdate="20120304000243" resolver="public" artresolver="public" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2847" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-core_2.9.1/ivy-0.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.1/0.8.8/dispatch-core_2.9.1-0.8.8.pom"/>
+				<caller organisation="net.databinder" name="dispatch-mime_2.9.1" conf="compile, runtime" rev="0.8.8" rev-constraint-default="0.8.8" rev-constraint-dynamic="0.8.8" callerrev="0.8.8"/>
+				<caller organisation="net.databinder" name="dispatch-http_2.9.1" conf="compile, runtime" rev="0.8.8" rev-constraint-default="0.8.8" rev-constraint-dynamic="0.8.8" callerrev="0.8.8"/>
+				<artifacts>
+					<artifact name="dispatch-core_2.9.1" type="jar" ext="jar" status="no" details="" size="123107" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/dispatch-core_2.9.1/jars/dispatch-core_2.9.1-0.8.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch-core_2.9.1/0.8.8/dispatch-core_2.9.1-0.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.1.3" status="release" pubdate="20120202121519" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="31">
+				<metadata-artifact status="no" details="" size="6625" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.pom"/>
+				<caller organisation="net.databinder" name="dispatch-mime_2.9.1" conf="compile, runtime" rev="4.1.3" rev-constraint-default="4.1.3" rev-constraint-dynamic="4.1.3" callerrev="0.8.8"/>
+				<caller organisation="net.databinder" name="dispatch-http_2.9.1" conf="compile, runtime" rev="4.1.3" rev-constraint-default="4.1.3" rev-constraint-dynamic="4.1.3" callerrev="0.8.8"/>
+				<caller organisation="net.databinder" name="dispatch-core_2.9.1" conf="compile, runtime" rev="4.1.3" rev-constraint-default="4.1.3" rev-constraint-dynamic="4.1.3" callerrev="0.8.8"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="352585" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.1.4" status="release" pubdate="20111218163741" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+				<metadata-artifact status="no" details="" size="5794" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpmime" conf="compile, runtime" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="4.1.2"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.1.4" rev-constraint-default="4.1.4" rev-constraint-dynamic="4.1.4" callerrev="4.1.3"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="181410" time="0" location="/Users/wickedwukong/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="4.1.4"/>
+				<caller organisation="org.apache.httpcomponents" name="httpmime" conf="compile, runtime" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="4.1.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.5.3.Final" status="release" pubdate="20120723115320" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6423" time="0" location="/Users/wickedwukong/.ivy2/cache/io.netty/netty/ivy-3.5.3.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.5.3.Final/netty-3.5.3.Final.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-netty_2.9.1" conf="compile, runtime" rev="3.5.3.Final" rev-constraint-default="3.5.3.Final" rev-constraint-dynamic="3.5.3.Final" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1124762" time="0" location="/Users/wickedwukong/.ivy2/cache/io.netty/netty/bundles/netty-3.5.3.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.5.3.Final/netty-3.5.3.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20120302164438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+				<metadata-artifact status="no" details="" size="4140" time="0" location="/Users/wickedwukong/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="true" origin-location="/Users/wickedwukong/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpmime" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.1.2"/>
+				<caller organisation="net.databinder" name="dispatch-mime_2.9.1" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.8.8"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.1.3"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="/Users/wickedwukong/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar">
+						<origin-location is-local="true" location="/Users/wickedwukong/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clapper" name="avsl_2.9.1">
+			<revision name="0.3.6" status="release" pubdate="20110914170629" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<metadata-artifact status="no" details="" size="2887" time="0" location="/Users/wickedwukong/.ivy2/cache/org.clapper/avsl_2.9.1/ivy-0.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/clapper/avsl_2.9.1/0.3.6/avsl_2.9.1-0.3.6.pom"/>
+				<caller organisation="com.example" name="db-unfiltered-demo_2.9.1" conf="test, compile, runtime" rev="0.3.6" rev-constraint-default="0.3.6" rev-constraint-dynamic="0.3.6" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avsl_2.9.1" type="jar" ext="jar" status="no" details="" size="173396" time="0" location="/Users/wickedwukong/.ivy2/cache/org.clapper/avsl_2.9.1/jars/avsl_2.9.1-0.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/avsl_2.9.1/0.3.6/avsl_2.9.1-0.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.2" status="release" pubdate="20120302164451" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
+				<metadata-artifact status="no" details="" size="4320" time="0" location="/Users/wickedwukong/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml" searched="false" origin-is-local="true" origin-location="/Users/wickedwukong/.m2/repository/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.pom"/>
+				<caller organisation="org.clapper" name="avsl_2.9.1" conf="default, compile, runtime, master" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="0.3.6"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25689" time="0" location="/Users/wickedwukong/.m2/repository/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar">
+						<origin-location is-local="true" location="/Users/wickedwukong/.m2/repository/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.mail" name="mail">
+			<revision name="1.4.3" status="release" pubdate="20100520014831" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+				<metadata-artifact status="no" details="" size="5862" time="0" location="/Users/wickedwukong/.ivy2/cache/javax.mail/mail/ivy-1.4.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/mail/mail/1.4.3/mail-1.4.3.pom"/>
+				<caller organisation="org.clapper" name="avsl_2.9.1" conf="default, compile, runtime, master" rev="1.4.3" rev-constraint-default="1.4.3" rev-constraint-dynamic="1.4.3" callerrev="0.3.6"/>
+				<artifacts>
+					<artifact name="mail" type="jar" ext="jar" status="no" details="" size="462097" time="0" location="/Users/wickedwukong/.ivy2/cache/javax.mail/mail/jars/mail-1.4.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/mail/mail/1.4.3/mail-1.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20060503004829" resolver="public" artresolver="public" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/wickedwukong/.ivy2/cache/javax.activation/activation/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.mail" name="mail" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.4.3"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="62983" time="0" location="/Users/wickedwukong/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clapper" name="grizzled-scala_2.9.1">
+			<revision name="1.0.8" status="release" pubdate="20110831164935" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<metadata-artifact status="no" details="" size="2629" time="0" location="/Users/wickedwukong/.ivy2/cache/org.clapper/grizzled-scala_2.9.1/ivy-1.0.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/clapper/grizzled-scala_2.9.1/1.0.8/grizzled-scala_2.9.1-1.0.8.pom"/>
+				<caller organisation="org.clapper" name="avsl_2.9.1" conf="default, compile, runtime, master" rev="1.0.8" rev-constraint-default="1.0.8" rev-constraint-dynamic="1.0.8" callerrev="0.3.6"/>
+				<artifacts>
+					<artifact name="grizzled-scala_2.9.1" type="jar" ext="jar" status="no" details="" size="447996" time="0" location="/Users/wickedwukong/.ivy2/cache/org.clapper/grizzled-scala_2.9.1/jars/grizzled-scala_2.9.1-1.0.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/grizzled-scala_2.9.1/1.0.8/grizzled-scala_2.9.1-1.0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="0.9.94" status="release" pubdate="20080222195343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="18">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2925" time="0" location="/Users/wickedwukong/.ivy2/cache/jline/jline/ivy-0.9.94.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom"/>
+				<caller organisation="org.clapper" name="grizzled-scala_2.9.1" conf="compile, runtime" rev="0.9.94" rev-constraint-default="0.9.94" rev-constraint-dynamic="0.9.94" callerrev="1.0.8"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="87325" time="0" location="/Users/wickedwukong/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="3.8.1" status="release" pubdate="20120302164407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="19">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2546" time="0" location="/Users/wickedwukong/.ivy2/cache/junit/junit/ivy-3.8.1.xml" searched="false" origin-is-local="true" origin-location="/Users/wickedwukong/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom"/>
+				<caller organisation="jline" name="jline" conf="compile, runtime" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="0.9.94"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="121070" time="0" location="/Users/wickedwukong/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar">
+						<origin-location is-local="true" location="/Users/wickedwukong/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-jetty_2.9.1">
+			<revision name="0.6.4" status="release" pubdate="20120806233514" resolver="public" artresolver="public" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="5">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2702" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-jetty_2.9.1/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/unfiltered-jetty_2.9.1/0.6.4/unfiltered-jetty_2.9.1-0.6.4.pom"/>
+				<caller organisation="com.example" name="db-unfiltered-demo_2.9.1" conf="test, compile, runtime" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="net.databinder" name="unfiltered-spec_2.9.1" conf="default, compile, runtime, master" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="unfiltered-jetty_2.9.1" type="jar" ext="jar" status="no" details="" size="23472" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-jetty_2.9.1/jars/unfiltered-jetty_2.9.1-0.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/unfiltered-jetty_2.9.1/0.6.4/unfiltered-jetty_2.9.1-0.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-webapp">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127143349" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<metadata-artifact status="no" details="" size="7699" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-webapp/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/7.6.0.v20120127/jetty-webapp-7.6.0.v20120127.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-jetty_2.9.1" conf="default, compile, runtime, master" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="jetty-webapp" type="jar" ext="jar" status="no" details="" size="98388" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/7.6.0.v20120127/jetty-webapp-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127142932" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<metadata-artifact status="no" details="" size="7528" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/7.6.0.v20120127/jetty-servlet-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="no" details="" size="87462" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/7.6.0.v20120127/jetty-servlet-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127142916" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<metadata-artifact status="no" details="" size="7429" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/7.6.0.v20120127/jetty-security-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-security" type="jar" ext="jar" status="no" details="" size="83405" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/7.6.0.v20120127/jetty-security-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127142841" resolver="public" artresolver="public" homepage="${jetty.url}" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<metadata-artifact status="no" details="" size="7999" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/7.6.0.v20120127/jetty-server-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="no" details="" size="309861" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/7.6.0.v20120127/jetty-server-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127142521" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
+				<metadata-artifact status="no" details="" size="7443" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/7.6.0.v20120127/jetty-http-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="no" details="" size="90022" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/7.6.0.v20120127/jetty-http-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127142505" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
+				<metadata-artifact status="no" details="" size="7328" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/7.6.0.v20120127/jetty-io-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="96413" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/7.6.0.v20120127/jetty-io-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127142531" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<metadata-artifact status="no" details="" size="7427" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/7.6.0.v20120127/jetty-continuation-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="no" details="" size="20172" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/7.6.0.v20120127/jetty-continuation-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.5" status="release" pubdate="20060717120957" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<metadata-artifact status="no" details="" size="2289" time="0" location="/Users/wickedwukong/.ivy2/cache/javax.servlet/servlet-api/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="132368" time="0" location="/Users/wickedwukong/development/grails-1.3.7/lib/servlet-api-2.5.jar">
+						<origin-location is-local="true" location="/Users/wickedwukong/development/grails-1.3.7/lib/servlet-api-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-xml">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127143326" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<metadata-artifact status="no" details="" size="7343" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-xml/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/7.6.0.v20120127/jetty-xml-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-xml" type="jar" ext="jar" status="no" details="" size="36465" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-xml/jars/jetty-xml-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/7.6.0.v20120127/jetty-xml-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="7.6.0.v20120127" status="release" pubdate="20120127142412" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<metadata-artifact status="no" details="" size="7530" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-7.6.0.v20120127.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/7.6.0.v20120127/jetty-util-7.6.0.v20120127.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-xml" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="7.6.0.v20120127" rev-constraint-default="7.6.0.v20120127" rev-constraint-dynamic="7.6.0.v20120127" callerrev="7.6.0.v20120127"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="247377" time="0" location="/Users/wickedwukong/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-7.6.0.v20120127.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/7.6.0.v20120127/jetty-util-7.6.0.v20120127.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-filter_2.9.1">
+			<revision name="0.6.4" status="release" pubdate="20120806233610" resolver="public" artresolver="public" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2878" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-filter_2.9.1/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/unfiltered-filter_2.9.1/0.6.4/unfiltered-filter_2.9.1-0.6.4.pom"/>
+				<caller organisation="com.example" name="db-unfiltered-demo_2.9.1" conf="test, compile, runtime" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="net.databinder" name="unfiltered-spec_2.9.1" conf="default, compile, runtime, master" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="unfiltered-filter_2.9.1" type="jar" ext="jar" status="no" details="" size="21028" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-filter_2.9.1/jars/unfiltered-filter_2.9.1-0.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/unfiltered-filter_2.9.1/0.6.4/unfiltered-filter_2.9.1-0.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered_2.9.1">
+			<revision name="0.6.4" status="release" pubdate="20120806233610" resolver="public" artresolver="public" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered_2.9.1/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/unfiltered_2.9.1/0.6.4/unfiltered_2.9.1-0.6.4.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-filter_2.9.1" conf="default, compile, runtime, master" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<caller organisation="net.databinder" name="unfiltered-netty_2.9.1" conf="compile, runtime" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="unfiltered_2.9.1" type="jar" ext="jar" status="no" details="" size="561267" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered_2.9.1/jars/unfiltered_2.9.1-0.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/unfiltered_2.9.1/0.6.4/unfiltered_2.9.1-0.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-tools.testing" name="specs_2.9.1">
+			<revision name="1.6.9" status="release" pubdate="20110902071351" resolver="public" artresolver="public" homepage="http://code.google.com/p/specs/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5020" time="0" location="/Users/wickedwukong/.ivy2/cache/org.scala-tools.testing/specs_2.9.1/ivy-1.6.9.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-tools/testing/specs_2.9.1/1.6.9/specs_2.9.1-1.6.9.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-spec_2.9.1" conf="default, compile, runtime, master" rev="1.6.9" rev-constraint-default="1.6.9" rev-constraint-dynamic="1.6.9" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="specs_2.9.1" type="jar" ext="jar" status="no" details="" size="2894790" time="0" location="/Users/wickedwukong/.ivy2/cache/org.scala-tools.testing/specs_2.9.1/jars/specs_2.9.1-1.6.9.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-tools/testing/specs_2.9.1/1.6.9/specs_2.9.1-1.6.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.9.1" status="release" pubdate="20110831094108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="28">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2604" time="0" location="/Users/wickedwukong/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom"/>
+				<caller organisation="org.scala-tools.testing" name="specs_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.6.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.4" status="release" pubdate="20090809222217" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<metadata-artifact status="no" details="" size="5179" time="0" location="/Users/wickedwukong/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom"/>
+				<caller organisation="net.databinder" name="unfiltered_2.9.1" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="0.6.4"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="4.1.3"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="58160" time="0" location="/Users/wickedwukong/development/grails-1.3.7/lib/commons-codec-1.4.jar">
+						<origin-location is-local="true" location="/Users/wickedwukong/development/grails-1.3.7/lib/commons-codec-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-util_2.9.1">
+			<revision name="0.6.4" status="release" pubdate="20120806233525" resolver="public" artresolver="public" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2558" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-util_2.9.1/ivy-0.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/unfiltered-util_2.9.1/0.6.4/unfiltered-util_2.9.1-0.6.4.pom"/>
+				<caller organisation="net.databinder" name="unfiltered_2.9.1" conf="compile, runtime" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<caller organisation="net.databinder" name="unfiltered-netty-server_2.9.1" conf="compile, runtime" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<caller organisation="net.databinder" name="unfiltered-jetty_2.9.1" conf="default, compile, runtime, master" rev="0.6.4" rev-constraint-default="0.6.4" rev-constraint-dynamic="0.6.4" callerrev="0.6.4"/>
+				<artifacts>
+					<artifact name="unfiltered-util_2.9.1" type="jar" ext="jar" status="no" details="" size="27317" time="0" location="/Users/wickedwukong/.ivy2/cache/net.databinder/unfiltered-util_2.9.1/jars/unfiltered-util_2.9.1-0.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/unfiltered-util_2.9.1/0.6.4/unfiltered-util_2.9.1-0.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1" status="release" pubdate="20110831093953" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2322" time="0" location="/Users/wickedwukong/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-filter_2.9.1" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.6.4"/>
+				<caller organisation="org.specs2" name="specs2-scalaz-core_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="6.0.1"/>
+				<caller organisation="net.databinder" name="dispatch-futures_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.8.8"/>
+				<caller organisation="net.databinder" name="dispatch-mime_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.8.8"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
+				<caller organisation="org.clapper" name="grizzled-scala_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.0.8"/>
+				<caller organisation="net.databinder" name="dispatch-core_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.8.8"/>
+				<caller organisation="com.example" name="db-unfiltered-demo_2.9.1" conf="test, compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="net.databinder" name="unfiltered_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.6.4"/>
+				<caller organisation="net.databinder" name="unfiltered-netty_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.6.4"/>
+				<caller organisation="org.scala-tools.testing" name="specs_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.6.9"/>
+				<caller organisation="org.clapper" name="avsl_2.9.1" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.3.6"/>
+				<caller organisation="net.databinder" name="unfiltered-spec_2.9.1" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.6.4"/>
+				<caller organisation="net.databinder" name="dispatch-http_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.8.8"/>
+				<caller organisation="net.databinder" name="unfiltered-util_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.6.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

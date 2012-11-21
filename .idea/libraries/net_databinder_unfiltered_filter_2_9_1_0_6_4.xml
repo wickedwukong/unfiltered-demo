@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="net.databinder_unfiltered-filter_2.9.1_0.6.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.databinder/unfiltered-filter_2.9.1/jars/unfiltered-filter_2.9.1-0.6.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.databinder/unfiltered-filter_2.9.1/docs/unfiltered-filter_2.9.1-0.6.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.databinder/unfiltered-filter_2.9.1/srcs/unfiltered-filter_2.9.1-0.6.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
